@@ -343,24 +343,25 @@ main {
 
 
 /* My section */
-.paragraup{
+.paragraup {
     font-size: 32px;
     font-weight: 700;
     color: #ff5400;
 }
 
 
-.thard-part{
+.thard-part {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
-.img{
+
+.img {
     border-radius: 5px;
     width: 230px;
     height: 256px;
-   }
+}
 
-.img-para{
+.img-para {
     width: 220px;
     height: 450px;
     padding: 40px;
@@ -370,12 +371,13 @@ main {
     margin-top: 80px;
     gap: 10px;
 }
-.star{
+
+.star {
     color: rgb(165, 142, 9);
 }
 
 
-   
+
 /* Simple place */
 
 .desc-list-s {
@@ -503,8 +505,8 @@ main {
 
 /* Footer section */
 
-footer{
-    /* border: 2px solid red; */
+footer {
+   
     height: 502px;
     width: 100%;
     background: rgba(19, 19, 24, 0.05);
@@ -513,7 +515,7 @@ footer{
     align-items: center;
 }
 
-.footer-elements{
+.footer-elements {
     height: 100%;
     max-width: 50%;
     display: flex;
@@ -522,46 +524,46 @@ footer{
     justify-content: center;
 }
 
-.brand-div{
+.brand-div {
     display: flex;
     gap: 16px;
     align-items: center;
     margin-bottom: 16px;
 }
 
-.brand-icon{
+.brand-icon {
     height: 46.67px;
 }
 
-.brand-name{
+.brand-name {
     color: #131318;
     font-size: 2rem;
     font-weight: 800;
 }
 
-.orange-title{
+.orange-title {
     color: #FF5400;
 
 }
 
-.footer-desc{
+.footer-desc {
     color: #5A5A5D;
     text-align: center;
     line-height: 162.5%;
     margin-bottom: 32px;
 }
 
-.icons{
+.icons {
     margin-bottom: 50px;
 }
 
-footer hr{
+footer hr {
     background-color: rgba(19, 19, 24, .10);
     margin-bottom: 50px;
     width: 100%;
 }
 
-.copyright{
+.copyright {
     text-align: center;
     color: #131318;
     font-weight: 300;
@@ -699,7 +701,7 @@ footer hr{
         aspect-ratio: 1 / .525;
     }
 
-    /*  */
+    
 
     .offer {
         flex-direction: column;
@@ -787,41 +789,43 @@ footer hr{
         font-size: 1.32rem;
         font-weight: 800;
     }
-    footer{
+
+    footer {
         height: auto;
         padding: 33px 0;
     }
 
-    .footer-elements{
+    .footer-elements {
         max-width: 80%;
     }
 
-    .brand-div{
-        gap:10px;
+    .brand-div {
+        gap: 10px;
     }
 
-    .brand-icon{
+    .brand-icon {
         height: 33.51px;
     }
 
-    .brand-name{
+    .brand-name {
         font-size: 1.35rem;
     }
 
-    .footer-desc{
+    .footer-desc {
         font-size: .875rem;
         line-height: 171.43%;
         margin-bottom: 16px;
     }
 
-    .icons{
+    .icons {
         margin-bottom: 24px;
     }
 
-    footer hr{
+    footer hr {
         margin-bottom: 24px;
     }
-    .thard-part{
+
+    .thard-part {
         grid-template-columns: repeat(1, 1fr);
         width: 100%;
     }
